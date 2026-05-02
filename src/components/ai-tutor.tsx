@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Send, Volume2, Square, Loader2, Sparkles } from "lucide-react";
-import { askTutor } from "@/server/tutor.functions";
+import { askTutor } from "@/lib/tutor.functions";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
