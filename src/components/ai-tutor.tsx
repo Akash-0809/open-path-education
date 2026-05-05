@@ -64,7 +64,9 @@ export function AITutor() {
     <section id="tutor" className="py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-primary">AI Tutor · Live demo</span>
+          <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+            AI Tutor · Live demo
+          </span>
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
             Meet Lumi — your patient AI tutor
           </h2>
@@ -107,7 +109,9 @@ export function AITutor() {
                     <button
                       type="button"
                       onClick={() => speak(i, m.content)}
-                      aria-label={speakingIdx === i ? "Stop reading aloud" : "Read this answer aloud"}
+                      aria-label={
+                        speakingIdx === i ? "Stop reading aloud" : "Read this answer aloud"
+                      }
                       className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-card px-2.5 py-1 text-xs font-medium text-primary shadow-soft transition-colors hover:bg-primary-soft"
                     >
                       {speakingIdx === i ? (

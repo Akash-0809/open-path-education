@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { Code2, Briefcase, Sprout, Accessibility, Palette } from "lucide-react";
 
 const COURSES = [
@@ -14,7 +15,9 @@ export function Courses() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-xl">
-            <span className="text-sm font-semibold uppercase tracking-wider text-primary">Curriculum</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+              Curriculum
+            </span>
             <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
               Structured learning across five domains
             </h2>
@@ -23,12 +26,12 @@ export function Courses() {
               transcripts and sign-language clips by default.
             </p>
           </div>
-          <a
-            href="#tutor"
+          <Link
+            to="/courses"
             className="rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium shadow-soft transition-colors hover:bg-background"
           >
             Browse catalog
-          </a>
+          </Link>
         </div>
 
         <ul className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
@@ -37,7 +40,10 @@ export function Courses() {
               key={name}
               className="group relative overflow-hidden rounded-3xl border border-border/70 bg-card p-6 shadow-soft transition-all hover:-translate-y-1 hover:shadow-glow"
             >
-              <div className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${color}`} aria-hidden="true" />
+              <div
+                className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${color}`}
+                aria-hidden="true"
+              />
               <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-soft text-primary">
                 <Icon className="h-5 w-5" aria-hidden="true" />
               </span>

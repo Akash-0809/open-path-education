@@ -1,0 +1,168 @@
+[
+    {
+        "id": "c1",
+        "title": "Python Programming in 1 Hour",
+        "description": "A beginner-friendly introduction to Python programming covering variables, loops, and basic structures.",
+        "category": "Computer Science",
+        "level": "Beginner",
+        "duration": "1:00:00",
+        "instructor": "Programming with Mosh",
+        "accessibility_features": [
+            "captions",
+            "screen-reader-friendly",
+            "audio-description"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=kqtD5dpn9C8",
+        "thumbnail": "https://img.youtube.com/vi/kqtD5dpn9C8/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c2",
+        "title": "Introduction to Algebra",
+        "description": "Learn the foundational concepts of Algebra, including variables, equations, and basic operations.",
+        "category": "Mathematics",
+        "level": "Beginner",
+        "duration": "0:12:00",
+        "instructor": "Math Antics",
+        "accessibility_features": [
+            "captions",
+            "sign-language"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=NybHckSEQBI",
+        "thumbnail": "https://img.youtube.com/vi/NybHckSEQBI/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c3",
+        "title": "HTML Tutorial for Beginners",
+        "description": "Start your web development journey by learning HTML, the building block of the internet.",
+        "category": "Web Development",
+        "level": "Beginner",
+        "duration": "1:09:00",
+        "instructor": "Programming with Mosh",
+        "accessibility_features": [
+            "captions",
+            "screen-reader-friendly",
+            "audio-description",
+            "sign-language"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "thumbnail": "https://img.youtube.com/vi/qz0aGYrrlhU/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c4",
+        "title": "The Immune System Explained I",
+        "description": "An animated and engaging overview of how the human immune system works to protect the body.",
+        "category": "Biology",
+        "level": "Beginner",
+        "duration": "0:06:54",
+        "instructor": "Kurzgesagt",
+        "accessibility_features": [
+            "captions",
+            "audio-description"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=zQGOcOUBi6s",
+        "thumbnail": "https://img.youtube.com/vi/zQGOcOUBi6s/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c5",
+        "title": "What is DNA and How Does it Work?",
+        "description": "A straightforward explanation of DNA, genetics, and how our cells use genetic instructions.",
+        "category": "Genetics",
+        "level": "Intermediate",
+        "duration": "0:05:23",
+        "instructor": "Stated Clearly",
+        "accessibility_features": [
+            "captions",
+            "sign-language"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=zwibgNGe4aY",
+        "thumbnail": "https://img.youtube.com/vi/zwibgNGe4aY/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c6",
+        "title": "Introduction to Physics",
+        "description": "An introductory look at the principles of physics and how they shape our understanding of the physical world.",
+        "category": "Physics",
+        "level": "Beginner",
+        "duration": "0:10:00",
+        "instructor": "CrashCourse",
+        "accessibility_features": [
+            "captions",
+            "screen-reader-friendly"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=ZM8ECpBuQYE",
+        "thumbnail": "https://img.youtube.com/vi/ZM8ECpBuQYE/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c7",
+        "title": "Map of Computer Science",
+        "description": "A fantastic overview of the entire field of computer science and how different sub-disciplines connect.",
+        "category": "Computer Science",
+        "level": "Intermediate",
+        "duration": "0:10:44",
+        "instructor": "Domain of Science",
+        "accessibility_features": [
+            "captions",
+            "audio-description",
+            "sign-language"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=SzJ46YA_RaA",
+        "thumbnail": "https://img.youtube.com/vi/SzJ46YA_RaA/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c8",
+        "title": "Learn JavaScript in 1 Hour",
+        "description": "Learn the fundamentals of JavaScript and start creating interactive web pages quickly.",
+        "category": "Web Development",
+        "level": "Beginner",
+        "duration": "0:48:00",
+        "instructor": "Programming with Mosh",
+        "accessibility_features": [
+            "captions",
+            "screen-reader-friendly"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+        "thumbnail": "https://img.youtube.com/vi/W6NZfCO5SIk/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c9",
+        "title": "Git Tutorial for Beginners",
+        "description": "Understand version control by learning Git, an essential tool for all modern software developers.",
+        "category": "Computer Science",
+        "level": "Intermediate",
+        "duration": "1:08:00",
+        "instructor": "Programming with Mosh",
+        "accessibility_features": [
+            "captions",
+            "audio-description",
+            "screen-reader-friendly"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=8JJ101D3knE",
+        "thumbnail": "https://img.youtube.com/vi/8JJ101D3knE/maxresdefault.jpg",
+        "language": "English"
+    },
+    {
+        "id": "c10",
+        "title": "How the Universe is Way Bigger Than You Think",
+        "description": "An exploration of the sheer scale of the universe, designed to inspire awe and curiosity in space science.",
+        "category": "Astronomy",
+        "level": "Beginner",
+        "duration": "0:09:59",
+        "instructor": "RealLifeLore",
+        "accessibility_features": [
+            "captions",
+            "audio-description",
+            "sign-language"
+        ],
+        "video_url": "https://www.youtube.com/watch?v=Iy7NzjVDflg",
+        "thumbnail": "https://img.youtube.com/vi/Iy7NzjVDflg/maxresdefault.jpg",
+        "language": "English"
+    }
+]

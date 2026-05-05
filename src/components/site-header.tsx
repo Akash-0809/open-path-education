@@ -9,23 +9,51 @@ export function SiteHeader() {
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-primary text-primary-foreground shadow-glow">
             <Sparkles className="h-5 w-5" aria-hidden="true" />
           </span>
-          <span>Lumina<span className="text-primary">Learn</span></span>
+          <span>
+            Lumina<span className="text-primary">Learn</span>
+          </span>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 text-sm font-medium md:flex">
-          <a href="#features" className="text-muted-foreground transition-colors hover:text-foreground">Features</a>
-          <a href="#tutor" className="text-muted-foreground transition-colors hover:text-foreground">AI Tutor</a>
-          <a href="#courses" className="text-muted-foreground transition-colors hover:text-foreground">Courses</a>
-          <a href="#impact" className="text-muted-foreground transition-colors hover:text-foreground">Impact</a>
+          <a
+            href="#features"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Features
+          </a>
+          <a
+            href="#tutor"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            AI Tutor
+          </a>
+          <Link
+            to="/courses"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Courses
+          </Link>
+          <Link
+            to="/my-courses"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            My Courses
+          </Link>
+          <a
+            href="#impact"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Impact
+          </a>
         </nav>
 
         <div className="flex items-center gap-2">
-          <a
-            href="#tutor"
+          <Link
+            to="/sign-in"
             className="hidden rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground shadow-soft transition-colors hover:bg-accent sm:inline-flex"
           >
             Sign in
-          </a>
+          </Link>
           <a
             href="#tutor"
             className="inline-flex items-center justify-center rounded-full bg-gradient-primary px-5 py-2 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-[1.02]"

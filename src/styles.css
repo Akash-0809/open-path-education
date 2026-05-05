@@ -47,8 +47,8 @@
   --radius: 1rem;
 
   /* Calm inclusive palette: soft teal primary, warm coral accent, cream base */
-  --background: oklch(0.985 0.008 95);          /* warm cream */
-  --foreground: oklch(0.22 0.04 240);           /* deep ink */
+  --background: oklch(0.985 0.008 95); /* warm cream */
+  --foreground: oklch(0.22 0.04 240); /* deep ink */
 
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.22 0.04 240);
@@ -56,20 +56,20 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.22 0.04 240);
 
-  --primary: oklch(0.58 0.13 200);              /* calm teal */
+  --primary: oklch(0.58 0.13 200); /* calm teal */
   --primary-foreground: oklch(0.99 0.005 200);
   --primary-soft: oklch(0.94 0.04 200);
 
-  --secondary: oklch(0.5 0.13 270);             /* soft indigo */
+  --secondary: oklch(0.5 0.13 270); /* soft indigo */
   --secondary-foreground: oklch(0.99 0.005 270);
 
   --muted: oklch(0.96 0.01 95);
   --muted-foreground: oklch(0.48 0.03 240);
 
-  --accent: oklch(0.93 0.05 200);               /* pale teal */
+  --accent: oklch(0.93 0.05 200); /* pale teal */
   --accent-foreground: oklch(0.32 0.08 220);
 
-  --warm: oklch(0.78 0.13 50);                  /* warm coral */
+  --warm: oklch(0.78 0.13 50); /* warm coral */
   --warm-foreground: oklch(0.25 0.05 50);
 
   --destructive: oklch(0.6 0.2 27);
@@ -79,7 +79,12 @@
   --input: oklch(0.92 0.012 220);
   --ring: oklch(0.58 0.13 200);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.94 0.04 200) 0%, oklch(0.97 0.03 60) 60%, oklch(0.93 0.05 280) 100%);
+  --gradient-hero: linear-gradient(
+    135deg,
+    oklch(0.94 0.04 200) 0%,
+    oklch(0.97 0.03 60) 60%,
+    oklch(0.93 0.05 280) 100%
+  );
   --gradient-primary: linear-gradient(135deg, oklch(0.62 0.13 200), oklch(0.55 0.14 250));
   --gradient-warm: linear-gradient(135deg, oklch(0.85 0.12 60), oklch(0.78 0.13 30));
 }
@@ -110,9 +115,13 @@
 }
 
 @layer base {
-  * { border-color: var(--color-border); }
+  * {
+    border-color: var(--color-border);
+  }
 
-  html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     background-color: var(--color-background);
@@ -122,7 +131,13 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
 
   /* Strong, visible focus for accessibility */
   :focus-visible {
@@ -131,22 +146,86 @@
     border-radius: 6px;
   }
 
-  ::selection { background: oklch(0.85 0.08 200); color: var(--color-foreground); }
+  ::selection {
+    background: oklch(0.85 0.08 200);
+    color: var(--color-foreground);
+  }
 }
 
 @layer utilities {
-  .bg-gradient-hero { background-image: var(--gradient-hero); }
-  .bg-gradient-primary { background-image: var(--gradient-primary); }
-  .bg-gradient-warm { background-image: var(--gradient-warm); }
-  .shadow-soft { box-shadow: var(--shadow-soft); }
-  .shadow-glow { box-shadow: var(--shadow-glow); }
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+  .bg-gradient-warm {
+    background-image: var(--gradient-warm);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
 
-  .text-balance { text-wrap: balance; }
+  .text-balance {
+    text-wrap: balance;
+  }
 
   /* Subtle floating animation for hero accents */
   @keyframes float-slow {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
-  .animate-float { animation: float-slow 6s ease-in-out infinite; }
+  .animate-float {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+}
+/* Courses Page */
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.course-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.level {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
 }

@@ -11,7 +11,9 @@ export function Impact() {
         <div className="overflow-hidden rounded-3xl border border-border bg-gradient-hero p-10 shadow-soft sm:p-16">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
-              <span className="text-sm font-semibold uppercase tracking-wider text-primary">Real-world impact</span>
+              <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+                Real-world impact
+              </span>
               <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
                 Education is a right — not a privilege of perfect senses.
               </h2>

@@ -21,7 +21,11 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-balance sm:text-5xl lg:text-6xl">
-            Learning that <span className="bg-gradient-primary bg-clip-text text-transparent">listens, signs and adapts</span> to every learner.
+            Learning that{" "}
+            <span className="bg-gradient-primary bg-clip-text text-transparent">
+              listens, signs and adapts
+            </span>{" "}
+            to every learner.
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground text-balance">
@@ -36,7 +40,10 @@ export function Hero() {
               className="group inline-flex items-center gap-2 rounded-full bg-gradient-primary px-6 py-3 text-base font-semibold text-primary-foreground shadow-glow transition-transform hover:scale-[1.02]"
             >
               Talk to the AI tutor
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+              <ArrowRight
+                className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                aria-hidden="true"
+              />
             </a>
             <a
               href="#features"
